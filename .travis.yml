@@ -1,7 +1,12 @@
 language: c++
 addons:
   apt:
+    sources:
+      - george-edison55-precise-backports
+      - ubuntu-toolchain-r-test
+      - llvm-toolchain-precise-3.7
     packages:
       - cmake
+      - cmake-data
 script:
   - mkdir build && cd build && cmake .. && cmake

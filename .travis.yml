@@ -16,6 +16,7 @@ addons:
       - libbullet-dev
       - freeglut3-dev
       - libglu1-mesa-dev
+      - libx11-dev
       - libxxf86vm-dev
       - libxrandr-dev
       - libxinerama-dev

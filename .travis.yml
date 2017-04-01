@@ -1,4 +1,7 @@
 language: c++
 
+addons:
+  apt:
+    - cmake
 script:
   - mkdir build && cd build && cmake .. && cmake

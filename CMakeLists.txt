@@ -10,4 +10,4 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/ext/glfw)
 include_directories (${PROJECT_SOURCE_DIR}/ext/glfw/include)
 
 add_executable(app main.cpp)
-target_link_libraries(app glfw)
+target_link_libraries(app glfw ${OPENGL_LIBRARY})

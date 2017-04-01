@@ -6,6 +6,7 @@ sudo: required
 addons:
   apt:
     sources:
+      - kubuntu-backports
       - george-edison55-precise-backports
       - ubuntu-toolchain-r-test
       - llvm-toolchain-precise-3.7

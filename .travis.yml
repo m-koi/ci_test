@@ -17,6 +17,7 @@ addons:
       - freeglut3-dev
       - libglu1-mesa-dev
       - libxxf86vm-dev
+      - libxrandr-dev
 script:
   - git submodule init && git submodule update
   - mkdir build && cd build && cmake .. && make

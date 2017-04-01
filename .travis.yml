@@ -13,5 +13,6 @@ addons:
       - cmake
       - cmake-data
       - libbullet-dev
+      - freeglut3-dev
 script:
   - mkdir build && cd build && cmake .. && cmake
